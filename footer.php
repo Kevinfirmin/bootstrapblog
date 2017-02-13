@@ -1,10 +1,24 @@
 </div><!-- /.container -->
+</div>
+</div>
 
 <footer class="blog-footer">
-    <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-    <p>
-        <a href="#">Back to top</a>
-    </p>
+    <div class="row">
+        <div class="col-md-4">
+            <p>Personal Info</p>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        </div>
+        <div class="col-md-4">
+            <p>Blog template built by Kevin Firmin.</p>
+            <p>
+                <a href="#">Back to top</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <p>Social Media</p>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        </div>
+    </div>
 </footer>
 
 
