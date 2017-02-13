@@ -8,13 +8,18 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+
     <title><?php echo get_bloginfo( 'description' ); ?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+
 
     <!-- Custom styles for this template -->
     <link href="<?php bloginfo('template_directory');?>/blog.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_directory');?>/hover.css" rel="stylesheet">
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -29,6 +34,8 @@
 
 <div class="blog-masthead">
     <div class="container">
+        <h1 class="blog-title"><a href="<?php bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
+        <p class="lead blog-description"><?php echo get_bloginfo( 'description' ); ?></p>
         <nav class="blog-nav">
             <a class="blog-nav-item" href="<?php bloginfo('wpurl');?>">Home</a>
             <?php wp_list_pages( '&title_li=' ); ?>
@@ -38,9 +45,6 @@
 
 <div class="container">
     <div class="wrapper">
-
         <div class="blog-header">
-            <h1 class="blog-title"><a href="<?php bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
-            <p class="lead blog-description"><?php echo get_bloginfo( 'description' ); ?></p>
         </div>
     </div>
