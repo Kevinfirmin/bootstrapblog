@@ -2,7 +2,7 @@
     <div class="media">
         <div class="media-left">
             <a href="<?php the_permalink();?>">
-                <img class="img-circle" style="max-height: 100px; max-width: 130px" src="<?php the_post_thumbnail('medium_large', array('class' => 'media-object,'));?> "></a>
+                <img class="img-circle" style="max-height: 100px; max-width: 130px" src="<?php the_post_thumbnail('medium_large', array('class' => 'media-object,image-circle'));?> "></a>
         </div>
         <div class="media-body">
             <h4 class="media-heading">
