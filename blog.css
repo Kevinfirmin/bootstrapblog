@@ -99,10 +99,11 @@ h6, .h6 {
  * Blog name and description
  */
 .seperator{
+  margin-bottom: 50px;
   width: 50%;
   background-color: skyblue;
   height: 3px;
-  margin: 15px auto 15px;
+  margin: 15px auto 25px;
 }
 
 
@@ -175,6 +176,7 @@ h6, .h6 {
 
 }
 .blog-post-title {
+  margin-top: 20px;
   margin-bottom: 5px;
   font-size: 40px;
   font-family: Abel;
